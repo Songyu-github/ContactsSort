@@ -10,6 +10,6 @@
 
 @interface StrClass : NSObject
 
-+ (NSString *)returnFirstWordWithString:(NSString *)str;
-+ (NSString *)returnAllWordsWithString:(NSString *)str;
++ (NSString *)returnFirstTransformedWordWithString:(NSString *)str;
++ (NSString *)returnAllTransformedWordsWithString:(NSString *)str;
 @end

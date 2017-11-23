@@ -7,15 +7,14 @@
 //
 
 #import "StrClass.h"
-static NSMutableString *editString;
 
 @implementation StrClass
 
-+ (NSString *)returnFirstWordWithString:(NSString *)str {
++ (NSString *)returnFirstTransformedWordWithString:(NSString *)str {
     return [[self class] returnTransformedWordsWithString:str lenth:1];
 }
 
-+ (NSString *)returnAllWordsWithString:(NSString *)str {
++ (NSString *)returnAllTransformedWordsWithString:(NSString *)str {
     return [[self class] returnTransformedWordsWithString:str lenth:[[self class] transformStringToPinyin:str].length];
 }
 

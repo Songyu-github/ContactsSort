@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		652AC64A1FC5712D00FD4A49 /* StrClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 650E168B1FC56FCB009075F9 /* StrClass.m */; };
 		652AC64B1FC5713000FD4A49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 650E168D1FC56FCB009075F9 /* main.m */; };
+		652AC64E1FC6710000FD4A49 /* Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 652AC64D1FC6710000FD4A49 /* Sort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		650E168B1FC56FCB009075F9 /* StrClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrClass.m; sourceTree = "<group>"; };
 		650E168C1FC56FCB009075F9 /* StrClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrClass.h; sourceTree = "<group>"; };
 		650E168D1FC56FCB009075F9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../../XcodeProjects/ContactsSort/ContactsSort/main.m; sourceTree = "<group>"; };
+		652AC64C1FC6710000FD4A49 /* Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
+		652AC64D1FC6710000FD4A49 /* Sort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				650E168D1FC56FCB009075F9 /* main.m */,
 				650E168C1FC56FCB009075F9 /* StrClass.h */,
 				650E168B1FC56FCB009075F9 /* StrClass.m */,
+				652AC64C1FC6710000FD4A49 /* Sort.h */,
+				652AC64D1FC6710000FD4A49 /* Sort.m */,
 			);
 			path = ContactsSort;
 			sourceTree = "<group>";
@@ -98,7 +103,7 @@
 				TargetAttributes = {
 					650E16801FC56FB0009075F9 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652AC64E1FC6710000FD4A49 /* Sort.m in Sources */,
 				652AC64B1FC5713000FD4A49 /* main.m in Sources */,
 				652AC64A1FC5712D00FD4A49 /* StrClass.m in Sources */,
 			);
@@ -239,8 +245,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 467H22CM6C;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -250,8 +256,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 467H22CM6C;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
